@@ -1,0 +1,146 @@
+.shop-img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-color {
+  background-color: #f8f9fa;
+}
+
+.blue-line {
+  width: 50px;
+  height: 3px;
+  background-color: rgba(51, 23, 172, 0.74);
+}
+
+.horizontal-center {
+  text-align: center;
+}
+
+.table-secondary {
+  background-color: #fff;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.margin-tottom-10 {
+  margin-bottom: 3px;
+}
+
+.long-line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.onehundredpicture {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 30px;
+  background-color: rgb(194, 181, 181);
+}
+
+.color-botton {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid gray;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: rgb(39, 38, 38);
+}
+
+.light-blue {
+  background-color: rgb(112, 153, 214);
+}
+
+.horizontaol-line {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+}
+
+.heart-botton {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid gray;
+  z-index: -1;
+}
+
+.reply-form {
+  position: relative;
+  top: -440px;
+  left: 65%;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.rwd-mapH {
+  height: 500px;
+}
+
+@media screen and (max-width:1200px) {
+  .reply-form {
+    left: 55%;
+  }
+
+  @media screen and (max-width:940px) {
+    .reply-form {
+      left: 30%;
+    }
+
+    @media screen and (max-width:770px) {
+      .rwd-felx {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+
+    @media screen and (max-width:620px) {
+      .reply-form {
+        left: 10%;
+        width: calc(100% - 70px);
+      }
+
+      .google-map {
+        width: 100%;
+      }
+
+      .rwd-mapH {
+        height: 520PX;
+      }
+    }
+
+    .full {
+      padding-left: 43%;
+      padding-right: 43%;
+    }
+
+    .google-map {
+      height: 500px;
+    }
+
+    .btn-skin {
+      width: 121px;
+      height: 44px;
+      background-color: #6366f1;
+    }
+
+    .card-bg {
+      background-color: #f3f4f6;
+      border-radius: 10px;
+    }

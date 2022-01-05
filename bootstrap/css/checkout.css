@@ -1,0 +1,68 @@
+.background {
+    background-color: rgb(59, 130, 246);
+    height: 100vw;
+}
+
+.schedule-img {
+    background: rgba(4, 163, 142, 0.5);
+    color: white;
+}
+
+.schedule {
+    background: rgb(253, 253, 253);
+    color: black;
+}
+
+.block {
+    background-color: rgb(207, 197, 197);
+}
+
+.opacity-white {
+    background-color: rgba(217, 218, 219, 0.678);
+}
+.white {
+    background-color: white;
+}
+
+.step {
+    width: 40px;
+    height: 40px;
+    border-radius: 59%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.schedule-bar {
+    position: relative;
+    margin-left: 160px;
+    margin-top: -25px;
+}
+
+.long-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.171);
+    position: relative;
+}
+
+.commodity-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(https://dummyimage.com/60x60);
+}
+.input-small {
+    width: 30%;
+}
+.price {
+    position: relative;
+    top:-30px;
+    left: 40px;
+}
+/* .horizontal-line {
+    width: 20%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: gray;
+    float: left;
+} */

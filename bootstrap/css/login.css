@@ -1,0 +1,83 @@
+.bg-blue {
+    background-color: #162446;
+}
+
+.bg-black {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.text-white {
+    color: white;
+}
+
+.login-color {
+    background-color: rgb(79, 70, 229);
+}
+
+.bt-layer {
+    background-image: url(https://dummyimage.com/1920x1080);
+}
+
+.logo {
+    width: 54px;
+    background-image: url(https://placeholder.pics/svg/53x64);
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 650px;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.round {
+    border-radius: 200px;
+}
+
+.Sign-in-w {
+    width: 100%;
+}
+
+.social-midia {
+    font-size: 30px;
+    color: white;
+}
+
+.full {
+    width: 100%;
+}
+.rwd-social {
+    display: none;
+}
+
+@media screen and (max-width:990px) {
+    .rwd-lose {
+        display: none;
+    }
+
+    .bg-blue {
+        background-color: #00000070;
+    }
+    .rwd-social {
+        display: block;
+        
+    }
+}

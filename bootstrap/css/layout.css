@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-image: url(https://dummyimage.com/40x40)
+}120 30
